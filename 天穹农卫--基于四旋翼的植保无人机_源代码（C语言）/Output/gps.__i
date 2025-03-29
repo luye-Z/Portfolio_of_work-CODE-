@@ -1,0 +1,4 @@
+--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\Libraries\inc -I .\Libraries\utils -I .\WP_Ctrl -I .\WP_Src -I .\User -I .\Libraries\utils -I .\Libraries\driverlib -I .\WP_Src\VL53L1X\core -I .\WP_Src\VL53L1X
+-ID:\Keil\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+-D__UVISION_VERSION="536" -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_BLIZZARD_RB1 -D__USE_ANSI_EXAMPLE_RAND
+-o .\output\gps.o --omf_browse .\output\gps.crf --depend .\output\gps.d "WP_Src\GPS.c"
